@@ -17,14 +17,14 @@ import view.MainView;
  */
 public class Main {
     
-    
+    //este metodo es para inicializarlo a la GUI
     public static void main(String[] args) {
         initMaterialDesign();
         new MainController(new MainView());
         
     }
     
-    
+    //Metodo de la libreria encargada del diseño de la GUI
     public static void initMaterialDesign() {
         try {
             UIManager.setLookAndFeel(new MaterialLookAndFeel());
